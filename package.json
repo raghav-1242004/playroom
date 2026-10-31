@@ -1,0 +1,10 @@
+{
+  "name": "playroom-multigame",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Real-time two-player multiplayer mini-game platform",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "express": "^4.21.2", "socket.io": "^4.8.1", "chess.js": "^1.4.0" }
+}
